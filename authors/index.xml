@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Sweta Agrawal</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 03 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
+    
+    <item>
+      <title>Marine Carpuat</title>
+      <link>/authors/marine-carpuat/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/marine-carpuat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sweta Agrawal</title>
+      <link>/authors/sweta-agrawal/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/sweta-agrawal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Amit Awekar</title>
+      <link>/authors/amit-awekar/</link>
+      <pubDate>Tue, 27 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/amit-awekar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Abhishek Kedia</title>
+      <link>/authors/abhishek-kedia/</link>
+      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/abhishek-kedia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ankur Garg</title>
+      <link>/authors/ankur-garg/</link>
+      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/ankur-garg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Payal Bajaj</title>
+      <link>/authors/payal-bajaj/</link>
+      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/payal-bajaj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shubham Agarwal</title>
+      <link>/authors/shubham-agarwal/</link>
+      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/shubham-agarwal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sunav Choudhary</title>
+      <link>/authors/sunav-choudhary/</link>
+      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/sunav-choudhary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;I am a second year PhD student at the &lt;a href=&#34;http://www.cs.umd.edu/&#34;&gt;Computer Science Department&lt;/a&gt; of the University of Maryland, College Park. I work with my advisor &lt;a href=&#34;http://www.cs.umd.edu/~marine/&#34;&gt;Marine Carpuat&lt;/a&gt; and other members of the &lt;a href=&#34;https://wiki.umiacs.umd.edu/clip/index.php/Main_Page&#34;&gt;CLIP lab&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;After completing my undergraduate studies from &lt;a href=&#34;http://www.iitg.ac.in/&#34;&gt;Indian Institute of Technology Guwahati&lt;/a&gt;, I joined &lt;a href=&#34;https://www.adobe.com/in/&#34;&gt;Adobe Systems&lt;/a&gt; as a software developer where I worked on automating the process of color correction for Adobe Premiere Pro CC.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
