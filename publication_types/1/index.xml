@@ -5,12 +5,36 @@
     <link>/publication_types/1/</link>
       <atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 03 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 29 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
       <link>/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>A Review of Human Evaluation for Style Transfer</title>
+      <link>/publication/fost-human/</link>
+      <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/fost-human/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessing Reference-Free Peer Evaluation for Machine Translation</title>
+      <link>/publication/reference-free/</link>
+      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/reference-free/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generating diverse translations via weighted fine-tuning and hypotheses filtering for the Duolingo STAPLE task</title>
+      <link>/publication/duolingo/</link>
+      <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/duolingo/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Controlling Text Complexity in Neural Machine Translation</title>
