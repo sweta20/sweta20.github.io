@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/publication_types/1/</loc>
-    <lastmod>2019-11-03T00:00:00+00:00</lastmod>
+    <loc>/publication/reference-free/</loc>
+    <lastmod>2021-04-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/</loc>
-    <lastmod>2019-11-03T00:00:00+00:00</lastmod>
+    <loc>/publication/duolingo/</loc>
+    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -18,58 +18,8 @@
   </url>
   
   <url>
-    <loc>/authors/marine-carpuat/</loc>
-    <lastmod>2019-11-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2019-11-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2019-11-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/sweta-agrawal/</loc>
-    <lastmod>2019-11-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2019-11-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/amit-awekar/</loc>
-    <lastmod>2018-03-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/cyber-bullying/</loc>
     <lastmod>2018-03-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/abhishek-kedia/</loc>
-    <lastmod>2017-11-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/ankur-garg/</loc>
-    <lastmod>2017-11-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/payal-bajaj/</loc>
-    <lastmod>2017-11-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/shubham-agarwal/</loc>
-    <lastmod>2017-11-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -78,8 +28,9 @@
   </url>
   
   <url>
-    <loc>/authors/sunav-choudhary/</loc>
-    <lastmod>2017-11-07T00:00:00+00:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2021-04-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -87,11 +38,22 @@
   </url>
   
   <url>
+    <loc>/authors/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/post/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2021-04-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -100,6 +62,7 @@
   
   <url>
     <loc>/tags/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>
