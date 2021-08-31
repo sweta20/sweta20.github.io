@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 29 May 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 30 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Authors</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Eleftheria Briakou</title>
       <link>/authors/eleftheria-briakou/</link>
-      <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
       <guid>/authors/eleftheria-briakou/</guid>
       <description></description>
     </item>
@@ -23,8 +23,32 @@
     <item>
       <title>Joel Tetreault</title>
       <link>/authors/joel-tetreault/</link>
-      <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
       <guid>/authors/joel-tetreault/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marine Carpuat</title>
+      <link>/authors/marine-carpuat/</link>
+      <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>/authors/marine-carpuat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sweta Agrawal</title>
+      <link>/authors/sweta-agrawal/</link>
+      <pubDate>Mon, 30 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>/authors/sweta-agrawal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weijia Xu</title>
+      <link>/authors/weijia-xu/</link>
+      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>/authors/weijia-xu/</guid>
       <description></description>
     </item>
     
@@ -33,22 +57,6 @@
       <link>/authors/ke-zhang/</link>
       <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
       <guid>/authors/ke-zhang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Marine Carpuat</title>
-      <link>/authors/marine-carpuat/</link>
-      <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
-      <guid>/authors/marine-carpuat/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sweta Agrawal</title>
-      <link>/authors/sweta-agrawal/</link>
-      <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
-      <guid>/authors/sweta-agrawal/</guid>
       <description></description>
     </item>
     
@@ -129,8 +137,8 @@
       <link>/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;I am a third year PhD student at the &lt;a href=&#34;http://www.cs.umd.edu/&#34;&gt;Computer Science Department&lt;/a&gt; of the University of Maryland, College Park. I work with my advisor &lt;a href=&#34;http://www.cs.umd.edu/~marine/&#34;&gt;Marine Carpuat&lt;/a&gt; and other members of the &lt;a href=&#34;https://wiki.umiacs.umd.edu/clip/index.php/Main_Page&#34;&gt;CLIP lab&lt;/a&gt;. My research focus is on Natural Language Processing, more specifically, I am interested in Machine Translation and Natural Language Generation.&lt;/p&gt;
-&lt;p&gt;Recently, I interned at &lt;a href=&#34;https://research.google/&#34;&gt;Google Research&lt;/a&gt; where I worked with &lt;a href=&#34;https://research.google/people/GeorgeFoster/&#34;&gt;George Foster&lt;/a&gt;, &lt;a href=&#34;https://sites.google.com/site/colinacherry/&#34;&gt;Colin Cherry&lt;/a&gt; and &lt;a href=&#34;https://scholar.google.com/citations?user=t-VqdOUAAAAJ&amp;amp;hl=en&#34;&gt;Markus Freitag&lt;/a&gt; on evaluation of Machine Translation systems. Before starting my graduate studies, I also worked at &lt;a href=&#34;https://www.adobe.com/in/&#34;&gt;Adobe Systems&lt;/a&gt; as a software developer on automating the process of color correction for Adobe Premiere Pro CC.&lt;/p&gt;
+      <description>&lt;p&gt;I am a fourth-year PhD student at the &lt;a href=&#34;http://www.cs.umd.edu/&#34;&gt;Computer Science Department&lt;/a&gt; of the University of Maryland, College Park. I work with my advisor &lt;a href=&#34;http://www.cs.umd.edu/~marine/&#34;&gt;Marine Carpuat&lt;/a&gt; and other members of the &lt;a href=&#34;https://wiki.umiacs.umd.edu/clip/index.php/Main_Page&#34;&gt;CLIP lab&lt;/a&gt;. My research focuses on Machine Translation, Natural Language Generation and its evaluation.&lt;/p&gt;
+&lt;p&gt;Previously, I interned at &lt;a href=&#34;https://research.google/&#34;&gt;Google Research&lt;/a&gt; where I worked with &lt;a href=&#34;https://juliakreutzer.github.io/&#34;&gt;Julia Kreutzer&lt;/a&gt;, &lt;a href=&#34;https://research.google/people/GeorgeFoster/&#34;&gt;George Foster&lt;/a&gt;, &lt;a href=&#34;https://sites.google.com/site/colinacherry/&#34;&gt;Colin Cherry&lt;/a&gt; and &lt;a href=&#34;https://scholar.google.com/citations?user=t-VqdOUAAAAJ&amp;amp;hl=en&#34;&gt;Markus Freitag&lt;/a&gt;. Before starting my graduate studies, I also worked at &lt;a href=&#34;https://www.adobe.com/in/&#34;&gt;Adobe Systems&lt;/a&gt; as a software developer on automating the process of color correction for Adobe Premiere Pro CC.&lt;/p&gt;
 </description>
     </item>
     
