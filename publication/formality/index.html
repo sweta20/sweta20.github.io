@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="We introduce a new approach for the task of Controllable Text Simplification, where systems rewrite a complex English sentence so that it can be understood by readers at different grade levels in the US K-12 system. It uses a non-autoregressive model to iteratively edit an input sequence and incorporates lexical complexity information seamlessly into the refinement process to generate simplifications that better match the desired output complexity than strong autoregressive baselines. Analysis shows that our model’s local edit operations are combined to achieve more complex simplification operations such as content deletion and paraphrasing, as well as sentence splitting.">
+  <meta name="description" content="This paper describes the University of Maryland’s submission to the Special Task on Formality Control for Spoken Language Translation at IWSLT, which evaluates translation from English into 6 languages with diverse grammatical formality markers. We investigate to what extent this problem can be addressed with a single multilingual model, simultaneously controlling its output for target language and formality. Results show that this strategy can approach the translation quality and formality control achieved by dedicated translation models. However, the nature of the underlying pre-trained language model and of the finetuning samples greatly impact results.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/publication/nat-simple/">
+  <link rel="alternate" hreflang="en-us" href="/publication/formality/">
 
   
 
@@ -210,7 +210,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/publication/nat-simple/">
+  <link rel="canonical" href="/publication/formality/">
 
   
   
@@ -227,15 +227,15 @@
   <meta property="twitter:creator" content="@swetaagrawal20">
   
   <meta property="og:site_name" content="Sweta Agrawal">
-  <meta property="og:url" content="/publication/nat-simple/">
-  <meta property="og:title" content="A Non-Autoregressive Edit-Based Approach to Controllable Text Simplification | Sweta Agrawal">
-  <meta property="og:description" content="We introduce a new approach for the task of Controllable Text Simplification, where systems rewrite a complex English sentence so that it can be understood by readers at different grade levels in the US K-12 system. It uses a non-autoregressive model to iteratively edit an input sequence and incorporates lexical complexity information seamlessly into the refinement process to generate simplifications that better match the desired output complexity than strong autoregressive baselines. Analysis shows that our model’s local edit operations are combined to achieve more complex simplification operations such as content deletion and paraphrasing, as well as sentence splitting."><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="/publication/formality/">
+  <meta property="og:title" content="Controlling Translation Formality Using Pre-trained Multilingual Language Models | Sweta Agrawal">
+  <meta property="og:description" content="This paper describes the University of Maryland’s submission to the Special Task on Formality Control for Spoken Language Translation at IWSLT, which evaluates translation from English into 6 languages with diverse grammatical formality markers. We investigate to what extent this problem can be addressed with a single multilingual model, simultaneously controlling its output for target language and formality. Results show that this strategy can approach the translation quality and formality control achieved by dedicated translation models. However, the nature of the underlying pre-trained language model and of the finetuning samples greatly impact results."><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2021-08-15T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2022-05-13T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2021-08-15T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-05-13T00:00:00&#43;00:00">
   
 
   
@@ -259,16 +259,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/publication/nat-simple/"
+    "@id": "/publication/formality/"
   },
-  "headline": "A Non-Autoregressive Edit-Based Approach to Controllable Text Simplification",
+  "headline": "Controlling Translation Formality Using Pre-trained Multilingual Language Models",
   
-  "datePublished": "2021-08-15T00:00:00Z",
-  "dateModified": "2021-08-15T00:00:00Z",
+  "datePublished": "2022-05-13T00:00:00Z",
+  "dateModified": "2022-05-13T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Sweta Agrawal"
+    "name": "Elijah Rippeth"
   },
   
   "publisher": {
@@ -279,7 +279,7 @@
       "url": "img//"
     }
   },
-  "description": "We introduce a new approach for the task of Controllable Text Simplification, where systems rewrite a complex English sentence so that it can be understood by readers at different grade levels in the US K-12 system. It uses a non-autoregressive model to iteratively edit an input sequence and incorporates lexical complexity information seamlessly into the refinement process to generate simplifications that better match the desired output complexity than strong autoregressive baselines. Analysis shows that our model’s local edit operations are combined to achieve more complex simplification operations such as content deletion and paraphrasing, as well as sentence splitting."
+  "description": "This paper describes the University of Maryland’s submission to the Special Task on Formality Control for Spoken Language Translation at IWSLT, which evaluates translation from English into 6 languages with diverse grammatical formality markers. We investigate to what extent this problem can be addressed with a single multilingual model, simultaneously controlling its output for target language and formality. Results show that this strategy can approach the translation quality and formality control achieved by dedicated translation models. However, the nature of the underlying pre-trained language model and of the finetuning samples greatly impact results."
 }
 </script>
 
@@ -297,7 +297,7 @@
 
 
 
-  <title>A Non-Autoregressive Edit-Based Approach to Controllable Text Simplification | Sweta Agrawal</title>
+  <title>Controlling Translation Formality Using Pre-trained Multilingual Language Models | Sweta Agrawal</title>
 
 </head>
 
@@ -521,7 +521,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>A Non-Autoregressive Edit-Based Approach to Controllable Text Simplification</h1>
+  <h1>Controlling Translation Formality Using Pre-trained Multilingual Language Models</h1>
 
   
 
@@ -541,7 +541,7 @@
 
 
   
-  <span><a href="/authors/sweta-agrawal/">Sweta Agrawal</a></span>, <span><a href="/authors/weijia-xu/">Weijia Xu</a></span>, <span><a href="/authors/marine-carpuat/">Marine Carpuat</a></span>
+  <span><a href="/authors/elijah-rippeth/">Elijah Rippeth</a></span>, <span><a href="/authors/sweta-agrawal/">Sweta Agrawal</a></span>, <span><a href="/authors/marine-carpuat/">Marine Carpuat</a></span>
 
   </div>
   
@@ -553,7 +553,7 @@
     
       
     
-    August 2021
+    May 2022
   </span>
   
 
@@ -601,7 +601,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://aclanthology.org/2021.findings-acl.330.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://aclanthology.org/2022.iwslt-1.30/" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -612,7 +612,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/sweta20/NAR-PMI" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/sweta20/IWSLT22-Formality" target="_blank" rel="noopener">
   Code
 </a>
 
@@ -624,14 +624,6 @@
 
 
 
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="https://aclanthology.org/2021.findings-acl.330.mp4" target="_blank" rel="noopener">
-  Video
-</a>
 
 
 
@@ -649,7 +641,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">We introduce a new approach for the task of Controllable Text Simplification, where systems rewrite a complex English sentence so that it can be understood by readers at different grade levels in the US K-12 system. It uses a non-autoregressive model to iteratively edit an input sequence and incorporates lexical complexity information seamlessly into the refinement process to generate simplifications that better match the desired output complexity than strong autoregressive baselines. Analysis shows that our model’s local edit operations are combined to achieve more complex simplification operations such as content deletion and paraphrasing, as well as sentence splitting.</p>
+    <p class="pub-abstract">This paper describes the University of Maryland’s submission to the Special Task on Formality Control for Spoken Language Translation at IWSLT, which evaluates translation from English into 6 languages with diverse grammatical formality markers. We investigate to what extent this problem can be addressed with a single multilingual model, simultaneously controlling its output for target language and formality. Results show that this strategy can approach the translation quality and formality control achieved by dedicated translation models. However, the nature of the underlying pre-trained language model and of the finetuning samples greatly impact results.</p>
     
 
     
@@ -679,7 +671,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <em>Findings of the Association for Computational Linguistics</em>, 2021.</div>
+          <div class="col-12 col-md-9">Proceedings of the 19th International Conference on Spoken Language Translation (IWSLT 2022)</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -710,7 +702,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/nat-simple/&amp;text=A%20Non-Autoregressive%20Edit-Based%20Approach%20to%20Controllable%20Text%20Simplification" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/formality/&amp;text=Controlling%20Translation%20Formality%20Using%20Pre-trained%20Multilingual%20Language%20Models" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -723,7 +715,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/nat-simple/&amp;t=A%20Non-Autoregressive%20Edit-Based%20Approach%20to%20Controllable%20Text%20Simplification" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/formality/&amp;t=Controlling%20Translation%20Formality%20Using%20Pre-trained%20Multilingual%20Language%20Models" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -736,7 +728,7 @@
       
       
       <li>
-        <a href="mailto:?subject=A%20Non-Autoregressive%20Edit-Based%20Approach%20to%20Controllable%20Text%20Simplification&amp;body=/publication/nat-simple/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Controlling%20Translation%20Formality%20Using%20Pre-trained%20Multilingual%20Language%20Models&amp;body=/publication/formality/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -749,7 +741,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/nat-simple/&amp;title=A%20Non-Autoregressive%20Edit-Based%20Approach%20to%20Controllable%20Text%20Simplification" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/formality/&amp;title=Controlling%20Translation%20Formality%20Using%20Pre-trained%20Multilingual%20Language%20Models" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -762,7 +754,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=A%20Non-Autoregressive%20Edit-Based%20Approach%20to%20Controllable%20Text%20Simplification%20/publication/nat-simple/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Controlling%20Translation%20Formality%20Using%20Pre-trained%20Multilingual%20Language%20Models%20/publication/formality/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -775,7 +767,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/nat-simple/&amp;title=A%20Non-Autoregressive%20Edit-Based%20Approach%20to%20Controllable%20Text%20Simplification" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/formality/&amp;title=Controlling%20Translation%20Formality%20Using%20Pre-trained%20Multilingual%20Language%20Models" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -813,7 +805,7 @@
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/authors/sweta-agrawal/"></a></h5>
+      <h5 class="card-title"><a href="/authors/elijah-rippeth/"></a></h5>
       
       
       <ul class="network-icon" aria-hidden="true">
@@ -837,14 +829,14 @@
   
   <div class="post-nav-item">
     <div class="meta-nav">Next</div>
-    <a href="/publication/fost-auto/" rel="next">Evaluating the Evaluation Metrics for Style Transfer: A Case Study in Multilingual Formality Transfer</a>
+    <a href="/publication/nar-multilingual/" rel="next">Exploring the Benefits and Limitations of Multilinguality for Non-autoregressive Machine Translation</a>
   </div>
   
   
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="/publication/fost-human/" rel="prev">A Review of Human Evaluation for Style Transfer</a>
+    <a href="/publication/immitation-curriculum/" rel="prev">An Imitation Learning Curriculum for Text Editing with Non-Autoregressive Models</a>
   </div>
   
 </div>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Colin Cherry | Sweta Agrawal</title>
-    <link>/authors/colin-cherry/</link>
-      <atom:link href="/authors/colin-cherry/index.xml" rel="self" type="application/rss+xml" />
-    <description>Colin Cherry</description>
+    <title>Julia Kreutzer | Sweta Agrawal</title>
+    <link>/authors/julia-kreutzer/</link>
+      <atom:link href="/authors/julia-kreutzer/index.xml" rel="self" type="application/rss+xml" />
+    <description>Julia Kreutzer</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 11 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Colin Cherry</title>
-      <link>/authors/colin-cherry/</link>
+      <title>Julia Kreutzer</title>
+      <link>/authors/julia-kreutzer/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>/publication/nar-multilingual/</link>
       <pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate>
       <guid>/publication/nar-multilingual/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Assessing Reference-Free Peer Evaluation for Machine Translation</title>
-      <link>/publication/reference-free/</link>
-      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/reference-free/</guid>
       <description></description>
     </item>
     

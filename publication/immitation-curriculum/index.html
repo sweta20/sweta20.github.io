@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="We introduce a new approach for the task of Controllable Text Simplification, where systems rewrite a complex English sentence so that it can be understood by readers at different grade levels in the US K-12 system. It uses a non-autoregressive model to iteratively edit an input sequence and incorporates lexical complexity information seamlessly into the refinement process to generate simplifications that better match the desired output complexity than strong autoregressive baselines. Analysis shows that our model’s local edit operations are combined to achieve more complex simplification operations such as content deletion and paraphrasing, as well as sentence splitting.">
+  <meta name="description" content="We propose a framework for training non-autoregressive sequence-to-sequence models for editing tasks, where the original input sequence is iteratively edited to produce the output. We show that the imitation learning algorithms designed to train such models for machine translation introduces mismatches between training and inference that lead to undertraining and poor generalization in editing scenarios. We address this issue with two complementary strategies: 1) a roll-in policy that exposes the model to intermediate training sequences that it is more likely to encounter during inference, 2) a curriculum that presents easy-to-learn edit operations first, gradually increasing the difficulty of training samples as the model becomes competent. We show the efficacy of these strategies on two challenging English editing tasks: controllable text simplification and abstractive summarization. Our approach significantly improves output quality on both tasks and controls output complexity better on the simplification task.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/publication/nat-simple/">
+  <link rel="alternate" hreflang="en-us" href="/publication/immitation-curriculum/">
 
   
 
@@ -210,7 +210,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/publication/nat-simple/">
+  <link rel="canonical" href="/publication/immitation-curriculum/">
 
   
   
@@ -227,15 +227,15 @@
   <meta property="twitter:creator" content="@swetaagrawal20">
   
   <meta property="og:site_name" content="Sweta Agrawal">
-  <meta property="og:url" content="/publication/nat-simple/">
-  <meta property="og:title" content="A Non-Autoregressive Edit-Based Approach to Controllable Text Simplification | Sweta Agrawal">
-  <meta property="og:description" content="We introduce a new approach for the task of Controllable Text Simplification, where systems rewrite a complex English sentence so that it can be understood by readers at different grade levels in the US K-12 system. It uses a non-autoregressive model to iteratively edit an input sequence and incorporates lexical complexity information seamlessly into the refinement process to generate simplifications that better match the desired output complexity than strong autoregressive baselines. Analysis shows that our model’s local edit operations are combined to achieve more complex simplification operations such as content deletion and paraphrasing, as well as sentence splitting."><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="/publication/immitation-curriculum/">
+  <meta property="og:title" content="An Imitation Learning Curriculum for Text Editing with Non-Autoregressive Models | Sweta Agrawal">
+  <meta property="og:description" content="We propose a framework for training non-autoregressive sequence-to-sequence models for editing tasks, where the original input sequence is iteratively edited to produce the output. We show that the imitation learning algorithms designed to train such models for machine translation introduces mismatches between training and inference that lead to undertraining and poor generalization in editing scenarios. We address this issue with two complementary strategies: 1) a roll-in policy that exposes the model to intermediate training sequences that it is more likely to encounter during inference, 2) a curriculum that presents easy-to-learn edit operations first, gradually increasing the difficulty of training samples as the model becomes competent. We show the efficacy of these strategies on two challenging English editing tasks: controllable text simplification and abstractive summarization. Our approach significantly improves output quality on both tasks and controls output complexity better on the simplification task."><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2021-08-15T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2022-03-17T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2021-08-15T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-03-17T00:00:00&#43;00:00">
   
 
   
@@ -259,12 +259,12 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/publication/nat-simple/"
+    "@id": "/publication/immitation-curriculum/"
   },
-  "headline": "A Non-Autoregressive Edit-Based Approach to Controllable Text Simplification",
+  "headline": "An Imitation Learning Curriculum for Text Editing with Non-Autoregressive Models",
   
-  "datePublished": "2021-08-15T00:00:00Z",
-  "dateModified": "2021-08-15T00:00:00Z",
+  "datePublished": "2022-03-17T00:00:00Z",
+  "dateModified": "2022-03-17T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -279,7 +279,7 @@
       "url": "img//"
     }
   },
-  "description": "We introduce a new approach for the task of Controllable Text Simplification, where systems rewrite a complex English sentence so that it can be understood by readers at different grade levels in the US K-12 system. It uses a non-autoregressive model to iteratively edit an input sequence and incorporates lexical complexity information seamlessly into the refinement process to generate simplifications that better match the desired output complexity than strong autoregressive baselines. Analysis shows that our model’s local edit operations are combined to achieve more complex simplification operations such as content deletion and paraphrasing, as well as sentence splitting."
+  "description": "We propose a framework for training non-autoregressive sequence-to-sequence models for editing tasks, where the original input sequence is iteratively edited to produce the output. We show that the imitation learning algorithms designed to train such models for machine translation introduces mismatches between training and inference that lead to undertraining and poor generalization in editing scenarios. We address this issue with two complementary strategies: 1) a roll-in policy that exposes the model to intermediate training sequences that it is more likely to encounter during inference, 2) a curriculum that presents easy-to-learn edit operations first, gradually increasing the difficulty of training samples as the model becomes competent. We show the efficacy of these strategies on two challenging English editing tasks: controllable text simplification and abstractive summarization. Our approach significantly improves output quality on both tasks and controls output complexity better on the simplification task."
 }
 </script>
 
@@ -297,7 +297,7 @@
 
 
 
-  <title>A Non-Autoregressive Edit-Based Approach to Controllable Text Simplification | Sweta Agrawal</title>
+  <title>An Imitation Learning Curriculum for Text Editing with Non-Autoregressive Models | Sweta Agrawal</title>
 
 </head>
 
@@ -521,7 +521,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>A Non-Autoregressive Edit-Based Approach to Controllable Text Simplification</h1>
+  <h1>An Imitation Learning Curriculum for Text Editing with Non-Autoregressive Models</h1>
 
   
 
@@ -541,7 +541,7 @@
 
 
   
-  <span><a href="/authors/sweta-agrawal/">Sweta Agrawal</a></span>, <span><a href="/authors/weijia-xu/">Weijia Xu</a></span>, <span><a href="/authors/marine-carpuat/">Marine Carpuat</a></span>
+  <span><a href="/authors/sweta-agrawal/">Sweta Agrawal</a></span>, <span><a href="/authors/marine-carpuat/">Marine Carpuat</a></span>
 
   </div>
   
@@ -553,7 +553,7 @@
     
       
     
-    August 2021
+    March 2022
   </span>
   
 
@@ -601,7 +601,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://aclanthology.org/2021.findings-acl.330.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://aclanthology.org/2022.acl-long.520.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -612,7 +612,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/sweta20/NAR-PMI" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/sweta20/EditingCL" target="_blank" rel="noopener">
   Code
 </a>
 
@@ -629,7 +629,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://aclanthology.org/2021.findings-acl.330.mp4" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://aclanthology.org/2022.acl-long.520.mp4" target="_blank" rel="noopener">
   Video
 </a>
 
@@ -649,7 +649,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">We introduce a new approach for the task of Controllable Text Simplification, where systems rewrite a complex English sentence so that it can be understood by readers at different grade levels in the US K-12 system. It uses a non-autoregressive model to iteratively edit an input sequence and incorporates lexical complexity information seamlessly into the refinement process to generate simplifications that better match the desired output complexity than strong autoregressive baselines. Analysis shows that our model’s local edit operations are combined to achieve more complex simplification operations such as content deletion and paraphrasing, as well as sentence splitting.</p>
+    <p class="pub-abstract">We propose a framework for training non-autoregressive sequence-to-sequence models for editing tasks, where the original input sequence is iteratively edited to produce the output. We show that the imitation learning algorithms designed to train such models for machine translation introduces mismatches between training and inference that lead to undertraining and poor generalization in editing scenarios. We address this issue with two complementary strategies: 1) a roll-in policy that exposes the model to intermediate training sequences that it is more likely to encounter during inference, 2) a curriculum that presents easy-to-learn edit operations first, gradually increasing the difficulty of training samples as the model becomes competent. We show the efficacy of these strategies on two challenging English editing tasks: controllable text simplification and abstractive summarization. Our approach significantly improves output quality on both tasks and controls output complexity better on the simplification task.</p>
     
 
     
@@ -679,7 +679,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <em>Findings of the Association for Computational Linguistics</em>, 2021.</div>
+          <div class="col-12 col-md-9">Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -710,7 +710,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/nat-simple/&amp;text=A%20Non-Autoregressive%20Edit-Based%20Approach%20to%20Controllable%20Text%20Simplification" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/immitation-curriculum/&amp;text=An%20Imitation%20Learning%20Curriculum%20for%20Text%20Editing%20with%20Non-Autoregressive%20Models" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -723,7 +723,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/nat-simple/&amp;t=A%20Non-Autoregressive%20Edit-Based%20Approach%20to%20Controllable%20Text%20Simplification" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/immitation-curriculum/&amp;t=An%20Imitation%20Learning%20Curriculum%20for%20Text%20Editing%20with%20Non-Autoregressive%20Models" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -736,7 +736,7 @@
       
       
       <li>
-        <a href="mailto:?subject=A%20Non-Autoregressive%20Edit-Based%20Approach%20to%20Controllable%20Text%20Simplification&amp;body=/publication/nat-simple/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=An%20Imitation%20Learning%20Curriculum%20for%20Text%20Editing%20with%20Non-Autoregressive%20Models&amp;body=/publication/immitation-curriculum/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -749,7 +749,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/nat-simple/&amp;title=A%20Non-Autoregressive%20Edit-Based%20Approach%20to%20Controllable%20Text%20Simplification" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/immitation-curriculum/&amp;title=An%20Imitation%20Learning%20Curriculum%20for%20Text%20Editing%20with%20Non-Autoregressive%20Models" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -762,7 +762,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=A%20Non-Autoregressive%20Edit-Based%20Approach%20to%20Controllable%20Text%20Simplification%20/publication/nat-simple/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=An%20Imitation%20Learning%20Curriculum%20for%20Text%20Editing%20with%20Non-Autoregressive%20Models%20/publication/immitation-curriculum/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -775,7 +775,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/nat-simple/&amp;title=A%20Non-Autoregressive%20Edit-Based%20Approach%20to%20Controllable%20Text%20Simplification" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/immitation-curriculum/&amp;title=An%20Imitation%20Learning%20Curriculum%20for%20Text%20Editing%20with%20Non-Autoregressive%20Models" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -837,14 +837,14 @@
   
   <div class="post-nav-item">
     <div class="meta-nav">Next</div>
-    <a href="/publication/fost-auto/" rel="next">Evaluating the Evaluation Metrics for Style Transfer: A Case Study in Multilingual Formality Transfer</a>
+    <a href="/publication/formality/" rel="next">Controlling Translation Formality Using Pre-trained Multilingual Language Models</a>
   </div>
   
   
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="/publication/fost-human/" rel="prev">A Review of Human Evaluation for Style Transfer</a>
+    <a href="/publication/fost-auto/" rel="prev">Evaluating the Evaluation Metrics for Style Transfer: A Case Study in Multilingual Formality Transfer</a>
   </div>
   
 </div>
